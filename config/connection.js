@@ -11,12 +11,11 @@ var connection = mysql.createConnection({
 
   // Your password
   password: "Assemian-1",
-  database: "burger_db"
+  database: "burgers_db"
 });
 
 connection.connect(function(err) {
   if (err) throw err;
-  runSearch();
 });
 
 module.exports = connection ;
