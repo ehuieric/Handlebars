@@ -1,0 +1,97 @@
+body {
+	color: black;
+	font-family: Helvetica, Arial; 
+	margin: 0;
+	background: #eee;
+}
+
+header {
+	background: #333;
+	margin: 0;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	margin: 0 0 0 100px;
+	color: #fff;
+	font-size: 50px;
+}
+
+span {
+	font-size: 0.85em;
+	background: #491bb3;
+	color: white;
+	padding: 3px 5px 3px 5px;
+	border-radius: 5px;
+	margin-left: 6px;
+}
+
+button {
+	display: inline;
+}
+
+.devour-burger-form {
+	display: inline;
+}
+
+#burgers-container {
+	display: flex;
+}
+
+#burgers-available {
+	flex-grow: 1;
+	padding: 0.5em 2em 1.7em 2em;
+	background: #71BC78;
+	margin: 1em 1em 1em 0;
+}
+
+#burgers-devoured {
+	flex-grow: 1;
+	background: rgb(51, 51, 51);
+	padding: 0.5em 2em 1.7em 2em;
+	margin: 1em 0 1em 1em;
+}
+
+#burgers-devoured h2, #burgers-devoured div {
+	color: #ddd;
+}
+
+.wrapper {
+	max-width: 77%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#create-burger {
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+.burger {
+	line-height: 3;
+}
+
+.eat-btn {
+	margin-right: 0.7em;
+	padding: 7px;
+}
+
+#submit-btn {
+	padding: 0.57em 1em 0.57em 1em;
+	font-size: 1.5em;
+	background: #ebff38;
+	border: none;
+	margin-left: -5px;
+}
+
+#burger-name {
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 1.5em;
+}
